@@ -76,6 +76,11 @@
     app.toggleAddDialog(false);
   });
 
+  
+  document.addEventListener('load', function() {
+    app.updateForecastCard(injectedForecast);
+  });
+
 
   /*****************************************************************************
    *
